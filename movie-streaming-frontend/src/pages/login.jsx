@@ -62,8 +62,7 @@ const Login = () => {
               <Card className="login-card">
                 <h3 className="login-title">Login</h3>
                 <Form className="login-form" onSubmit={handleSubmit} autoComplete="off">
-                  <Form.Group className="mb-3">
-                    <Form.Label>EmailId </Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control
                       type="email"
                       name="email"
